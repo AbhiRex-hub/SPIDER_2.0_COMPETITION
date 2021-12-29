@@ -1,0 +1,674 @@
+body{
+	background-color: #E5E5E5;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 10rem;
+}
+
+.Head{
+	display: grid;
+	width: 95%;
+	min-width: 90rem;
+	margin: auto;
+	grid-template-columns: 1fr;
+	grid-row-gap: 1rem;
+}
+
+.logo{
+	font-family: 'Oswald', sans-serif; 
+	font-size:60px;
+	align-self: center;
+}
+
+nav{
+	min-width: 95%;
+	max-width: 95%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 0.47fr 1.5fr 2.5fr;
+}
+
+nav > ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	font-family: 'Oswald', sans-serif; 
+}
+
+ul a{
+	text-decoration: none;
+	color: black;
+}
+
+ul li{
+	transition: all 0.5s;
+}
+
+ul li:hover{
+	color:  black;
+	transform: scale(1.1);
+}
+
+header{
+	min-width: 95%;
+	max-width: 95%;
+	margin: auto;
+	height: 50rem;
+	display: grid;
+	grid-template-columns: 1.15fr 14fr;
+	grid-column-gap: 3rem;
+}
+
+.SideBarLeft{
+	height: 50rem;
+	background-image: url('https://i.pinimg.com/564x/ac/58/93/ac5893ba92dfcb10c29b3c5fdecb3c90.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 1px 1px 10px black;
+}
+
+.SideBarLeft > button{
+	background-color: black;
+	border-radius: 10px;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.b1:hover{
+	background-image: url('https://i.pinimg.com/564x/cf/5a/23/cf5a234bade0f63a49ea31a7f484da42.jpg');
+	background-size: contain;
+	opacity: 1;
+}
+
+.b2:hover{
+	background-image: url('https://i.pinimg.com/564x/91/c5/d9/91c5d9ded068b33e715aa6ea505d8c16.jpg');
+	background-size: contain;
+	opacity: 1;
+}
+
+.b3:hover{
+	background-image: url('https://i.pinimg.com/564x/3b/18/33/3b1833dd1335d30db7c3968612fff938.jpg');
+	background-size: contain;
+	opacity: 1;
+}
+
+.b4:hover{
+	background-image: url('https://i.pinimg.com/564x/e3/5f/66/e35f6604241c1daa0b31e5afa4c6246a.jpg');
+	background-size: contain;
+	opacity: 1;
+	background-position: 0 50%;
+}
+
+.b5:hover{
+	background-image: url('https://i.pinimg.com/564x/2c/51/34/2c513404486a6256694785e41a2dafd6.jpg');
+	background-size: contain;
+	opacity: 1;
+}
+
+.Intro{
+	display: grid;
+	grid-template-columns: 1fr 1.35fr;
+	box-shadow: 1px 1px 10px black;
+}
+
+.Image{
+	object-fit: contain;
+	background-image: url('https://i.pinimg.com/564x/87/bd/03/87bd030350dd790515f819e10a3647d9.jpg');
+}
+
+.Founder{
+	background-image: url('Hg.png');
+	background-size: contain;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 50%;
+}
+
+.Founder > div:nth-of-type(1) {
+	font-size: 3.7rem;	
+}
+
+.Founder h1{
+  color: white;
+  margin-left: -8.2rem;
+  margin-top: 2rem;
+}
+
+.Founder_Intro{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	margin-left: 2rem;
+	text-align: center;
+	width: 70%;
+	height: 75%;
+	font-family: roboto;
+	background-image: url('https://i.pinimg.com/564x/ac/58/93/ac5893ba92dfcb10c29b3c5fdecb3c90.jpg');
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px darkgoldenrod;
+}
+
+.Quote{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	backdrop-filter: blur(7vh);
+	font-size: 1.3rem;
+	border-radius: 10px;
+}
+
+.Founder_Image{
+	background-image: url("https://i.pinimg.com/564x/75/34/0c/75340c46406428ebba460f02b79a36c0.jpg");
+	background-size: cover;
+	border-radius: 0 10px 10px 0;
+}
+
+.Carousel{
+	width: 80%;
+	height: 42rem;
+	margin: auto;
+}
+
+.About{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.AboutBlock{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.AboutButton{
+	background-color: black;
+	color: white;
+	width: 20%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.AboutDescription{
+	width: 81%;
+	height: 80%;
+	border: solid 1px #161616;
+	box-shadow: 1px 1px 10px black;
+	display: grid;
+	grid-template-columns: 1fr 0.78fr;
+}
+
+.AboutText{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #c3bfbc;
+	/*background: linear-gradient(to right,#7b5842, #5a371f);*/
+}
+
+.AboutText p{
+	width: 70%;
+	height: 80%;
+	font-size: 1rem;
+	font-family:'Poppins', sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.AboutImage{
+	background-image: url("https://i.pinimg.com/564x/c7/4b/94/c74b9472b0b3059bd3862d02d0bf0bb5.jpg");
+	background-size: contain;
+}
+
+.Team{
+	background-color: #E8E0D6;
+	width: 81%;
+	height: 80%;
+	border: solid 1px #161616;
+	box-shadow: 1px 1px 10px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.TeamButton{
+	background-color: black;
+	color: white;
+	width: 30%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.goal{
+	width: 59%;
+	height: 10%;
+	color: black;
+	font-family: roboto;
+	font-size: 2rem;
+}
+
+.Team_Image{
+	width: 90%;
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.IMCard{
+	width: 22%;
+	height: 100%;
+	box-shadow: 1px 1px 10px black;
+}
+
+.TI1{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/564x/75/34/0c/75340c46406428ebba460f02b79a36c0.jpg");
+	background-size: cover ;
+}
+
+.TI2{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/564x/74/73/3c/74733c7bd7e7386f126ae93a179c781b.jpg");
+	background-size: cover ;
+}
+
+.TI3{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/236x/29/fb/b9/29fbb91a91766ce76398e7720dcc2154.jpg");
+	background-size: cover ;
+}
+
+.TI4{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/236x/ac/03/39/ac0339351fe4811e90ae596a0474eab5.jpg");
+	background-size: cover ;
+}
+
+.TeamText{
+	width: 100%;
+	height: 20%;
+	background-color: black;
+	color: white;
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.LocationImage{
+	background-image: url("Hi.png");
+	background-size: cover;
+	background-position: -5rem 0;
+}
+
+.LocationButton{
+	background-color: black;
+	color: white;
+	width: 40%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.LocationText{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #c3bfbc;
+}
+
+.LocationText p{
+	width: 70%;
+	height: 80%;
+	font-size: 1rem;
+	font-family:'Poppins', sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.Services{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.ServiceButton{
+	background-color: black;
+	color: white;
+	width: 20%;
+	margin:  auto;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.ServicesBackground{
+	width: 81%;
+	height: 80%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ServicesBlock1{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.467fr 1fr;
+	grid-column-gap: 2.5rem;
+}
+
+.ServicesBlock2{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.605fr 0.5fr;
+	grid-column-gap: 2.5rem;
+}
+
+.ServicesBlock3{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.442fr 0.6fr;
+	grid-column-gap: 2.5rem;
+}
+
+.S1{
+	background-image: url('https://i.pinimg.com/236x/dc/97/37/dc9737aef8962d35f375c45158d913b1.jpg');
+	background-size: contain;
+}
+
+.S2{
+	background-image: url('https://i.pinimg.com/564x/f4/5d/ed/f45dedf3394ac42193b13d6bd523af77.jpg');
+	background-size: contain;
+}
+
+.S3{
+	background-image: url('https://i.pinimg.com/564x/40/22/f6/4022f6c7755963b9b4a80f5671ddebfb.jpg');
+	background-size: contain;
+}
+
+.ServicesDescription{
+	background-color:  #E8E0D6;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Past-Work{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.PastWorkButton{
+	background-color: black;
+	color: white;
+	width: 20%;
+	margin:  auto;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.PastWorkBackground{
+	width: 81%;
+	height: 80%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.PastWorkBlock1{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.548fr 1fr;
+	grid-column-gap: 2.5rem;
+}
+
+.P1{
+	background-image: url('https://i.pinimg.com/564x/37/09/11/370911cc4e9238f3e7b8ba4c25122494.jpg');
+	background-size: contain;
+}
+
+.PastWorkDescription{
+	display: grid;
+	grid-template-rows: 0.5fr 1fr;
+		background-color:  #E8E0D6;
+}
+
+.P1Description{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+	font-size: 1.5rem;
+	border: solid 1px black;
+}
+
+.P1Review{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px black;
+}
+
+.P1ReviewImage{
+	width: 27%;
+	height: 80%;
+	background-image: url('https://i.pinimg.com/564x/28/84/af/2884af84bc627fbc3773acded8accbf2.jpg');
+	background-size: contain;
+}
+
+.P1ReviewText{
+	width: 50%;
+	height: 80%;
+	background-color: #B6A388;
+	font-family:'Poppins', sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.PastWorkBlock2{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.695fr 1fr;
+	grid-column-gap: 2.5rem;
+}
+
+.P2{
+	/*background-image: url('https://i.pinimg.com/564x/41/01/4c/41014c9f65029172bbc168cf8a9a35c6.jpg');*/
+	background-image: url('https://i.pinimg.com/564x/7c/10/79/7c10790a36ae87b5c1884d5283aa7eef.jpg');
+	background-size: contain;
+}
+
+.P2Description{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+	font-size: 1.5rem;
+	border: solid 1px black;
+}
+
+.P2Review{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px black;
+}
+
+.P2ReviewImage{
+	width: 39.5%;
+	height: 80%;
+	background-image: url('https://i.pinimg.com/564x/62/c0/ea/62c0ea63bde30ccc8337dde6c76c0cb3.jpg');
+	background-size: contain;
+}
+
+.P2ReviewText{
+	width: 50%;
+	height: 80%;
+	background-color:  #B6A388;
+	font-family:'Poppins', sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.PastWorkBlock3{
+	width: 90%;
+	height: 85%;
+	display: grid;
+	grid-template-columns: 0.57fr 1fr;
+	grid-column-gap: 2.5rem;
+}
+
+.P3{
+	background-image: url('https://i.pinimg.com/564x/73/43/e4/7343e461d1d5843babee6b26029c1539.jpg');
+	background-size: contain;
+}
+
+.P3Description{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+	font-size: 1.5rem;
+	border: solid 1px black;
+}
+
+.P3Review{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px black;
+}
+
+.P3ReviewImage{
+	width: 30%;
+	height: 80%;
+	background-image: url('https://i.pinimg.com/564x/6c/37/6a/6c376a40df01060ab911d6875573cb9b.jpg');
+	background-size: contain;
+}
+
+.P3ReviewText{
+	width: 50%;
+	height: 80%;
+	background-color:  #B6A388;
+	font-family:'Poppins', sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.Contact{
+	width: 65%;
+	height: 35rem;
+	background-image: url('https://images.unsplash.com/photo-1592471657072-8f998e2af6aa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZW52ZWxvcGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
+	margin: auto;
+	box-shadow: 1px 1px 10px black;
+	margin-top: 4rem;
+	margin-bottom: 7rem;
+}
+
+.ContactButton{
+	background-color: black;
+	color: white;
+	width: 25%;
+	margin:  auto;
+	margin-top: 9rem;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.ContactDescription{
+	color: white;
+	width: 50%;
+	height: 15%;
+	margin:  auto;
+	margin-top: 9rem;
+	box-shadow: 1px 1px 5px black;
+	font-size: 1.2rem;
+	display: grid;
+	grid-template-rows: 1fr 1.5fr;
+	font-family:'Poppins', sans-serif;
+}
+
+.ContactDescription div{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
